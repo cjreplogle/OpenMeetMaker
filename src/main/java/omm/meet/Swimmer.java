@@ -1,6 +1,7 @@
-package swimmer;
+package omm.meet;
 
-import swimmer.event.SwimmerEvent;
+import omm.meet.event.SwimmerEvent;
+import omm.meet.Team;
 
 import java.util.List;
 
@@ -8,10 +9,10 @@ public class Swimmer {
     String name;
     int age;
     Team team;
-    boolean gender;
+    String gender;
     List<SwimmerEvent> swimmerEntrys;
 
-    public Swimmer(String name, int age, Team team, boolean gender){
+    public Swimmer(String name, int age, Team team, String gender){
         this.name = name;
         this.age = age;
         this.team = team;

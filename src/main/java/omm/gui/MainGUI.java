@@ -1,9 +1,6 @@
-package app.util.gui;
+package omm.gui;
 
 import javax.swing.*;
-import app.util.gui.AddEvent;
-import app.util.gui.AddSwimmer;
-import app.util.gui.AddSwimmerToEvent;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -17,6 +14,7 @@ public class MainGUI extends JFrame{
     private JButton addTeamButton;
     private JButton importNotWorkingButton;
     private JButton saveAsMshNotButton;
+    private JButton enterSwimmerButton;
 
     public MainGUI(String title) {
         super(title);
@@ -41,9 +39,23 @@ public class MainGUI extends JFrame{
         });
         addEventButton.addActionListener(new ActionListener() {
             @Override
-            public void actionPerformed(ActionEvent e) {
+            public void actionPerformed(ActionEvent click) {
                 JFrame eventFrame = new AddEvent("Add Event");
                 eventFrame.setVisible(true);
+            }
+        });
+        addTeamButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent click) {
+                JFrame teamFrame = new AddTeam("Add Team");
+                teamFrame.setVisible(true);
+            }
+        });
+        enterSwimmerButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent click) {
+                JFrame enterFrame = new AddSwimmerToEvent("Enter Swimmer");
+                enterFrame.setVisible(true);
             }
         });
     }

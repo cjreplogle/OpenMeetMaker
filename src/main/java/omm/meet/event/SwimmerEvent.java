@@ -1,6 +1,4 @@
-package swimmer.event;
-
-import swimmer.Swimmer;
+package omm.meet.event;
 
 public class SwimmerEvent {
     String eventName;

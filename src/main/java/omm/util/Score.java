@@ -1,4 +1,4 @@
-package app.util;
+package omm.util;
 
 public class Score {
 
