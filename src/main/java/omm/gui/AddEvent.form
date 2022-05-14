@@ -96,15 +96,6 @@
           <text value="Breastroke"/>
         </properties>
       </component>
-      <component id="d84d4" class="javax.swing.JTextField" binding="distance">
-        <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="75" height="-1"/>
-            <maximum-size width="75" height="-1"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
       <component id="b96d9" class="javax.swing.JButton" binding="createButton" default-binding="true">
         <constraints>
           <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -125,7 +116,16 @@
         <constraints>
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
-        <properties/>
+        <properties>
+          <model>
+            <item value="8&amp;Under"/>
+            <item value="9-10"/>
+            <item value="11-12"/>
+            <item value="13-14"/>
+            <item value="15-18"/>
+            <item value="Open"/>
+          </model>
+        </properties>
       </component>
       <component id="84899" class="javax.swing.JLabel">
         <constraints>
@@ -133,6 +133,25 @@
         </constraints>
         <properties>
           <text value="Age Group"/>
+        </properties>
+      </component>
+      <component id="69188" class="javax.swing.JComboBox" binding="distance">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="25"/>
+            <item value="50"/>
+            <item value="100"/>
+            <item value="200"/>
+            <item value="400"/>
+            <item value="500"/>
+            <item value="800"/>
+            <item value="1000"/>
+            <item value="1500"/>
+            <item value="1650"/>
+          </model>
         </properties>
       </component>
     </children>

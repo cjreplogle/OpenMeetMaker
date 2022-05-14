@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d00e8b02-ce41-4a63-921b-d8c0207fec5e" name="Changes" comment="" />
+    <list default="true" id="d00e8b02-ce41-4a63-921b-d8c0207fec5e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/omm/Init.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/omm/meet/event/EventManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/omm/meet/swimmer/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/omm/meet/swimmer/SwimmerManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/omm/meet/team/TeamManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/gui/AddEvent.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/gui/AddEvent.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/gui/AddEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/gui/AddEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/gui/AddSwimmer.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/gui/AddSwimmer.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/gui/AddSwimmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/gui/AddSwimmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/gui/AddSwimmerToEvent.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/gui/AddSwimmerToEvent.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/gui/AddSwimmerToEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/gui/AddSwimmerToEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/gui/AddTeam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/gui/AddTeam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/gui/MainGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/gui/MainGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/meet/Swimmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/meet/swimmer/Swimmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/meet/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/meet/team/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/meet/event/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/meet/event/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/meet/event/SwimmerEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/omm/util/Score.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/omm/util/Score.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +88,7 @@
     <configuration name="Run from main" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="omm.gui.MainGUI" />
+      <option name="MAIN_CLASS_NAME" value="omm.Init" />
       <module name="OpenMeetMaker" />
       <method v="2">
         <option name="Make" enabled="true" />

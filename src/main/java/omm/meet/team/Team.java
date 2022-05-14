@@ -1,4 +1,6 @@
-package omm.meet;
+package omm.meet.team;
+
+import omm.meet.swimmer.Swimmer;
 
 import java.util.List;
 
@@ -13,6 +15,10 @@ public class Team {
 
     public void addSwimmerToTeam(Swimmer swimmer){
         teamMembers.add(swimmer);
+    }
+
+    public String getName(){
+        return name;
     }
 
     public int calculateScore(){

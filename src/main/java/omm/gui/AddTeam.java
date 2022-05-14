@@ -1,11 +1,14 @@
 package omm.gui;
 
 import javax.swing.*;
-import omm.meet.Team;
 
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
+import omm.meet.team.TeamManager;
+
+import omm.Init;
+import omm.meet.team.TeamManager;
 
 public class AddTeam extends JFrame {
     private JPanel AddTeam;
@@ -27,6 +30,13 @@ public class AddTeam extends JFrame {
         cancelButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent click) {
+                dispose();
+            }
+        });
+        createButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent click) {
+                TeamManager.addTeam(teamName.getText());
                 dispose();
             }
         });

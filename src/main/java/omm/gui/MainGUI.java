@@ -24,11 +24,6 @@ public class MainGUI extends JFrame{
         this.pack();
     }
 
-    public static void main(String[] args) {
-        JFrame frame = new MainGUI("OpenMeetMaker");
-        frame.setVisible(true);
-    }
-
     private void setupListeners(){
         addSwimmerButton.addActionListener(new ActionListener() {
             @Override
