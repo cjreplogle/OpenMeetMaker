@@ -3,10 +3,10 @@ package omm.meet.swimmer;
 import java.util.List;
 
 public class Swimmer {
-    private String name;
-    private int age;
-    private String team;
-    private String gender;
+    private final String name;
+    private final int age;
+    private final String team;
+    private final String gender;
     List<Entry> swimmerEntrys;
 
     public Swimmer(String name, int age, String team, String gender){
